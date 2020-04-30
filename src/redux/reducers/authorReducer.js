@@ -1,5 +1,5 @@
 import * as types from '../actions/actionTypes'
-import initialState from './initiateState'
+import initialState from './initialState'
 
 export default function authorReducer(state = initialState.authors, action) {
   switch (action.type) {
